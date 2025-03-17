@@ -1,0 +1,30 @@
+/* Center everything on the page */
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.landing-buttons {
+  margin-top: 20px;
+}
+
+.landing-buttons button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #646cff;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.landing-buttons button:hover {
+  background-color: #535bf2;
+}

@@ -1,0 +1,98 @@
+/* General Page Styling */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("/path-to-your-background.jpg") center/cover no-repeat;
+  padding: 1rem;
+}
+
+/* Profile Card */
+.profile-card {
+  width: 90%;
+  max-width: 450px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s; /* Add transition for hover effect */
+}
+
+.profile-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Header */
+.profile-header {
+  background: #646cff;
+  color: white;
+  padding: 2rem;
+  border-top-left-radius: 16px; /* Rounded corners */
+  border-top-right-radius: 16px; /* Rounded corners */
+}
+
+.profile-name {
+  font-size: 2rem; /* Increased font size */
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+/* Profile Details */
+.profile-details {
+  padding: 2rem;
+}
+
+.profile-details p {
+  font-size: 1.1rem; /* Slightly larger font size */
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.profile-details span {
+  font-weight: bold;
+  color: #646cff;
+}
+
+/* Buttons */
+.profile-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #f8f9fa;
+  border-top: 1px solid #ddd;
+}
+
+.profile-button {
+  padding: 0.4rem 1rem; /* Reduced padding for a smaller height */
+  font-size: 0.9rem; /* Font size */
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s; /* Add transition for hover effect */
+  border: none;
+  outline: none;
+  margin: 0.3rem 0; /* Add vertical margin for spacing */
+}
+
+.primary-button {
+  background: #646cff;
+  color: white;
+}
+
+.primary-button:hover {
+  background: #535bf2;
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.secondary-button {
+  background: white;
+  color: #646cff;
+  border: 1px solid #646cff;
+}
+
+.secondary-button:hover {
+  background: #f0f0ff;
+  transform: translateY(-2px); /* Lift effect on hover */
+}
